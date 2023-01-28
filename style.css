@@ -7,6 +7,10 @@ canvas {
   image-rendering: crisp-edges;
 }
 
+iframe {
+  opacity: 0;
+}
+
 #maincanvas {
   top: 0;
   bottom: 0;
