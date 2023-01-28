@@ -38,7 +38,7 @@ const Sprite = class {
       this.currentTimerFrame = 0;
       this.currentFrame = (this.currentFrame + 1) % this.frameCount;
     }
-    debugger;
+
     this.currentRotationAngle =
       (this.currentRotationAngle + this.rotationAnimationSpeed) % 360;
   }
