@@ -316,9 +316,12 @@ const handleClick = () => {
 window.onload = () => {
   const canvas = document.getElementById("maincanvas");
   const secondaryCanvas = document.getElementById("secondarycanvas");
+  const dabadaba = document.getElementById("video1");
+
   canvas.addEventListener(
     "click",
-    function () {
+    function (event) {
+      event.preventDefault();
       handleClick();
     },
     false
